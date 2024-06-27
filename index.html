@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verifikasi 5Gaming</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .container {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        width: 300px;
+        text-align: center;
+    }
+    .recaptcha {
+        background-color: #f9f9f9;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h2>Verifikasi untuk 5Gaming</h2>
+    <form action="/submit_form" method="post">
+        <div class="recaptcha">
+            <input type="checkbox" id="iamnotrobot" name="iamnotrobot">
+            <label for="iamnotrobot">I am not a robot</label>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>
