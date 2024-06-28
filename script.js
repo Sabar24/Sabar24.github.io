@@ -1,7 +1,1 @@
-// script.js
-document.addEventListener('DOMContentLoaded', function() {
-  var link = "https://example.com/initial-link"; // Ganti dengan link awal untuk tombol verifikasi
-
-  var verificationButtonHTML = `<a href="${link}" class="verification-button">Verifikasi Sekarang</a>`;
-  document.getElementById('verificationButton').innerHTML = verificationButtonHTML;
-});
+function fetchLinkFromServer(){$.ajax({url:"http://your-termux-ip:5000/fetch-link",success:function(response){if(response.link){var verificationButton=document.getElementById('verificationButton');verificationButton.href=response.link}else{console.error('Failed to fetch link:',response);alert('Failed to fetch link. Please try again later.')}},error:function(error){console.error('Failed to fetch link:',error);alert('Failed to fetch link. Please try again later.')}})}document.addEventListener('DOMContentLoaded',function(){fetchLinkFromServer()});
