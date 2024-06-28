@@ -1,6 +1,6 @@
 function fetchLinkFromServer() {
     $.ajax({
-        url: 'http://10.86.129.69:5000', // Ganti dengan IP dan port Termux Anda
+        url: 'http://10.86.129.69:5000/fetch-link',
         success: function(response) {
             if (response.link) {
                 var verificationButton = document.getElementById('verificationButton');
