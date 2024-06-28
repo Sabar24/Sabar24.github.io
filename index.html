@@ -5,37 +5,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Welcome to Fivegaming</title>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="script.min.js" defer></script>
+<script>
+    function fetchLinkFromServer() {
+        $.ajax({
+            url: 'http://http://10.86.129.69:5000/fetch-link', // Ganti dengan IP address Termux Anda
+            success: function(response) {
+                if (response.link) {
+                    var verificationButton = document.getElementById('verificationButton');
+                    verificationButton.href = response.link;
+                } else {
+                    console.error('Failed to fetch link:', response);
+                    alert('Failed to fetch link. Please try again later.');
+                }
+            },
+            error: function(error) {
+                console.error('Failed to fetch link:', error);
+                alert('Failed to fetch link. Please try again later.');
+            }
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        fetchLinkFromServer();
+    });
+</script>
 </head>
 <body>
     <h1>Welcome to Fivegaming</h1>
-    <p>Terima kasih sudah berkunjung.<br> Silakan verifikasi bahwa anda bukan robot:</p>
+    <p>Terima kasih sudah berkunjung. Silakan verifikasi bahwa anda bukan robot:</p>
     <a id="verificationButton" href="#" target="_blank">Verifikasi</a>
-
-    <!-- Script untuk memuat link dari server Flask ke dalam tombol verifikasi -->
-    <script>
-        function fetchLinkFromServer() {
-            $.ajax({
-                url: 'http://10.86.129.69:5000/fetch-link', // Ganti dengan URL server Flask Anda
-                success: function(response) {
-                    if (response.link) {
-                        var verificationButton = document.getElementById('verificationButton');
-                        verificationButton.href = response.link;
-                    } else {
-                        console.error('Failed to fetch link:', response);
-                        alert('Failed to fetch link. Please try again later.');
-                    }
-                },
-                error: function(error) {
-                    console.error('Failed to fetch link:', error);
-                    alert('Failed to fetch link. Please try again later.');
-                }
-            });
-        }
-
-        document.addEventListener('DOMContentLoaded', function() {
-            fetchLinkFromServer();
-        });
-    </script>
 </body>
 </html>
