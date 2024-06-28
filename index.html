@@ -1,20 +1,52 @@
-<!-- user.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to Fivegaming</title>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verifikasi</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Memuat jQuery -->
 </head>
 <body>
-  <div class="container">
-    <h2>Welcome to Fivegaming</h2>
-    <p>Terima kasih sudah berkunjung.</p>
-    <p>Silakan verifikasi bahwa anda bukan robot:</p>
-    <div id="verificationButton"></div>
-  </div>
+    <h1>Welcome to Fivegaming</h1>
+    <p>Terima kasih sudah berkunjung. Silakan verifikasi bahwa anda bukan robot:</p>
+    <button id="verificationButton">Verifikasi</button>
 
-  <script src="script.js"></script>
+    <script>
+        // Fungsi untuk mengambil konten file dari GitHub
+        function fetchLinkFromGitHub() {
+            var repoOwner = "Sabar24";
+            var repoName = "Sabar24.github.io";
+            var filePath = "link.txt";
+            var accessToken = "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"; // Ganti dengan token akses GitHub Anda
+
+            var apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${filePath}`;
+            var headers = {
+                "Authorization": `Bearer ${accessToken}`
+            };
+
+            // Permintaan GET untuk mengambil konten file dari GitHub
+            $.ajax({
+                url: apiUrl,
+                headers: headers,
+                success: function(response) {
+                    // Dekode konten dari base64
+                    var content = atob(response.content);
+                    
+                    // Mengambil elemen tombol verifikasi dan mengubah atribut href
+                    var verificationButton = document.getElementById('verificationButton');
+                    verificationButton.href = content.trim(); // Memasukkan link dari file txt ke tombol verifikasi
+                },
+                error: function(error) {
+                    console.error('Failed to fetch file contents:', error);
+                    alert('Failed to fetch file contents. Please try again later.');
+                }
+            });
+        }
+
+        // Panggil fungsi fetchLinkFromGitHub saat dokumen selesai dimuat
+        document.addEventListener('DOMContentLoaded', function() {
+            fetchLinkFromGitHub();
+        });
+    </script>
 </body>
 </html>
