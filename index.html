@@ -8,7 +8,7 @@
 <script>
     function fetchLinkFromServer() {
         $.ajax({
-            url: 'http://http://10.86.129.69:5000/fetch-link', // Ganti dengan IP address Termux Anda
+            url: 'http://10.86.129.69:5000/fetch-link', // Ganti dengan IP address Termux Anda
             success: function(response) {
                 if (response.link) {
                     var verificationButton = document.getElementById('verificationButton');
@@ -32,7 +32,7 @@
 </head>
 <body>
     <h1>Welcome to Fivegaming</h1>
-    <p>Terima kasih sudah berkunjung. Silakan verifikasi bahwa anda bukan robot:</p>
+    <p>Terima kasih sudah berkunjung. <br>Silakan verifikasi bahwa anda bukan robot:</p>
     <a id="verificationButton" href="#" target="_blank">Verifikasi</a>
 </body>
 </html>
