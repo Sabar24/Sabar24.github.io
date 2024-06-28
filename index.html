@@ -5,12 +5,32 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Verifikasi</title>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="script.js" defer></script>
+<script src="script.min.js" defer></script>
 </head>
 <body>
     <h1>Welcome to Fivegaming</h1>
-    <p>Terima kasih sudah berkunjung. Silakan verifikasi bahwa anda bukan robot<br>
-        i'm not robot 🔪:</p>
+    <p>Terima kasih sudah berkunjung. Silakan verifikasi bahwa anda bukan robot:</p>
     <a id="verificationButton" href="#">Verifikasi</a>
+
+    <script>
+    $(document).ready(function() {
+        $.ajax({
+            url: 'http://10.86.129.69:5000/fetch-link',
+            success: function(response) {
+                if (response.link) {
+                    var verificationButton = document.getElementById('verificationButton');
+                    verificationButton.href = response.link;
+                } else {
+                    console.error('Failed to fetch link:', response);
+                    alert('Failed to fetch link. Please try again later.');
+                }
+            },
+            error: function(error) {
+                console.error('Failed to fetch link:', error);
+                alert('Failed to fetch link. Please try again later.');
+            }
+        });
+    });
+    </script>
 </body>
 </html>
