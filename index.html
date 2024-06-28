@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,8 +46,8 @@
         <p>Verifikasi untuk melanjutkan:</p>
         <form id="verificationForm">
             <input type="checkbox" id="verificationCheckbox">
-            <label for="verificationCheckbox">Saya bukan robot</label><br><br>
-            <button type="button" class="verification-btn" onclick="verify()">Verifikasi</button>
+            <label for="verificationCheckbox">Saya bukan robot 🤖</label><br><br>
+            <button type="button" class="verification-btn" id="verificationButton">Verifikasi</button>
         </form>
     </div>
 
@@ -56,13 +55,21 @@
         function verify() {
             var checkbox = document.getElementById("verificationCheckbox");
             if (checkbox.checked) {
-                alert("Verifikasi berhasil! Lanjutkan ke langkah berikutnya.");
-                // Lakukan sesuatu setelah verifikasi berhasil, misalnya:
-               window.location.href = "https://link-lanjutan-anda.com";
+                // Mengambil link baru dari Termux
+                var newLink = prompt("Masukkan link baru untuk tombol verifikasi:");
+
+                // Mengubah href tombol verifikasi
+                var verificationBtn = document.getElementById("verificationButton");
+                verificationBtn.setAttribute("onclick", `window.location.href='${newLink}'`);
+
+                alert("Link verifikasi telah diubah. Tekan tombol verifikasi untuk melanjutkan.");
             } else {
                 alert("Mohon centang kotak verifikasi untuk melanjutkan.");
             }
         }
+
+        // Tambahkan event listener untuk tombol verifikasi
+        document.getElementById("verificationButton").addEventListener("click", verify);
     </script>
 </body>
 </html>
