@@ -1,38 +1,68 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Welcome to Fivegaming</title>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-    function fetchLinkFromServer() {
-        $.ajax({
-            url: 'http://10.86.129.69:5000/fetch-link', // Ganti dengan IP address Termux Anda
-            success: function(response) {
-                if (response.link) {
-                    var verificationButton = document.getElementById('verificationButton');
-                    verificationButton.href = response.link;
-                } else {
-                    console.error('Failed to fetch link:', response);
-                    alert('Failed to fetch link. Please try again later.');
-                }
-            },
-            error: function(error) {
-                console.error('Failed to fetch link:', error);
-                alert('Failed to fetch link. Please try again later.');
-            }
-        });
-    }
-
-    document.addEventListener('DOMContentLoaded', function() {
-        fetchLinkFromServer();
-    });
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Fivegaming</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            margin: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .verification-btn {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .verification-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Fivegaming</h1>
-    <p>Terima kasih sudah berkunjung. <br>Silakan verifikasi bahwa anda bukan robot:</p>
-    <a id="verificationButton" href="#" target="_blank">Verifikasi</a>
+    <div class="container">
+        <h1>Welcome to Fivegaming</h1>
+        <p>Verifikasi untuk melanjutkan:</p>
+        <form id="verificationForm">
+            <input type="checkbox" id="verificationCheckbox">
+            <label for="verificationCheckbox">Saya bukan robot</label><br><br>
+            <button type="button" class="verification-btn" onclick="verify()">Verifikasi</button>
+        </form>
+    </div>
+
+    <script>
+        function verify() {
+            var checkbox = document.getElementById("verificationCheckbox");
+            if (checkbox.checked) {
+                alert("Verifikasi berhasil! Lanjutkan ke langkah berikutnya.");
+                // Lakukan sesuatu setelah verifikasi berhasil, misalnya:
+                // window.location.href = "https://link-lanjutan-anda.com";
+            } else {
+                alert("Mohon centang kotak verifikasi untuk melanjutkan.");
+            }
+        }
+    </script>
 </body>
 </html>
