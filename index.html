@@ -38,6 +38,11 @@
         .verification-btn:hover {
             background-color: #0056b3;
         }
+        .message {
+            color: green;
+            font-weight: bold;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
@@ -46,20 +51,28 @@
         <p>Verifikasi untuk melanjutkan:</p>
         <form id="verificationForm">
             <input type="checkbox" id="verificationCheckbox">
-            <label for="verificationCheckbox">Saya bukan robot 🤖</label><br><br>
+            <label for="verificationCheckbox">Saya bukan robot</label><br><br>
             <button type="button" class="verification-btn" onclick="verify()">Verifikasi</button>
         </form>
+        <p id="verificationMessage" class="message" style="display: none;"></p>
     </div>
 
     <script>
         function verify() {
             var checkbox = document.getElementById("verificationCheckbox");
+            var messageElement = document.getElementById("verificationMessage");
+
             if (checkbox.checked) {
-                alert("Verifikasi berhasil! Lanjutkan ke langkah berikutnya.");
-                // Lakukan sesuatu setelah verifikasi berhasil, misalnya:
-                window.location.href = "https://link-lanjutan-anda.com";
+                // Ganti URL sesuai kebutuhan
+                var newURL = "https://link-baru-anda.com";
+                var verificationBtn = document.querySelector(".verification-btn");
+                verificationBtn.setAttribute("onclick", `window.location.href='${newURL}'`);
+                
+                messageElement.textContent = "Verifikasi berhasil! Sedang mengarahkan...";
+                messageElement.style.display = "block";
             } else {
-                alert("Mohon centang kotak verifikasi untuk melanjutkan.");
+                messageElement.textContent = "Mohon centang kotak verifikasi untuk melanjutkan.";
+                messageElement.style.display = "block";
             }
         }
     </script>
