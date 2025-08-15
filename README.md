@@ -21,3 +21,4 @@
 - [📡 kalende gbut](https://github.com/fivegaming24/Kalender)
 - [📡 kalende gbut](https://github.com/Sabar24/Codam.chek)
 - [📡 bot-wa-absen](https://github.com/Sabar24/bot-absensi-simple)
+- [📡 Follow the Five Gaming channel on WhatsApp:](https://whatsapp.com/channel/0029Vajwi2y6mYPFkhGWfV2f)
