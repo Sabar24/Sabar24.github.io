@@ -17,6 +17,8 @@
 ---
 
 ### 📂 Project Terbaru
+- 🎯 [ITNSA J2 2024 & 2025](#)  
+  Dokumentasi, tool, dan resource untuk ITNSA J2 periode 2024 & 2025.
 - 🔐 [Projek Web Gabut](https://github.com/fivegaming24/fivegaming24.github.io)  
   Website eksperimen HTML/CSS untuk iseng dan uji fitur baru.
 - 📅 [Kalender Gabut](https://github.com/fivegaming24/Kalender)  
@@ -27,5 +29,6 @@
   Bot WhatsApp untuk sistem absensi sederhana.
 - 📢 [Channel WhatsApp Five Gaming](https://whatsapp.com/channel/0029Vajwi2y6mYPFkhGWfV2f)  
   Update terbaru & pengumuman dari Five Gaming.
+gumuman dari Five Gaming.
 
 ---
