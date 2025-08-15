@@ -20,4 +20,4 @@
 - [🔐 projek web gabut](https://github.com/fivegaming24/fivegaming24.github.io)
 - [📡 kalende gbut](https://github.com/fivegaming24/Kalender)
 - [📡 kalende gbut](https://github.com/Sabar24/Codam.chek)
-- [📡 kalende gbut](https://github.com/Sabar24/Codam.chek)
+- [📡 bot-wa-absen](https://github.com/Sabar24/bot-absensi-simple)
