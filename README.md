@@ -17,8 +17,15 @@
 ---
 
 ### 📂 Project Terbaru
-- [🔐 projek web gabut](https://github.com/fivegaming24/fivegaming24.github.io)
-- [📡 kalende gbut](https://github.com/fivegaming24/Kalender)
-- [📡 kalende gbut](https://github.com/Sabar24/Codam.chek)
-- [📡 bot-wa-absen](https://github.com/Sabar24/bot-absensi-simple)
-- [📡 Follow the Five Gaming channel on WhatsApp:](https://whatsapp.com/channel/0029Vajwi2y6mYPFkhGWfV2f)
+- 🔐 [Projek Web Gabut](https://github.com/fivegaming24/fivegaming24.github.io)  
+  Website eksperimen HTML/CSS untuk iseng dan uji fitur baru.
+- 📅 [Kalender Gabut](https://github.com/fivegaming24/Kalender)  
+  Kalender digital custom dengan fitur tambahan unik.
+- 🛡 [Codam Check](https://github.com/Sabar24/Codam.chek)  
+  Tool pengecekan otomatis untuk proyek internal.
+- 🤖 [Bot WA Absensi Simple](https://github.com/Sabar24/bot-absensi-simple)  
+  Bot WhatsApp untuk sistem absensi sederhana.
+- 📢 [Channel WhatsApp Five Gaming](https://whatsapp.com/channel/0029Vajwi2y6mYPFkhGWfV2f)  
+  Update terbaru & pengumuman dari Five Gaming.
+
+---
