@@ -15,7 +15,14 @@
 ![Networking](https://img.shields.io/badge/Networking-0078D4?logo=cisco&logoColor=white)
 
 ---
+### 💻 My Best Operating Systems
 
+- **Debian**
+  - ![Debian 11](https://img.shields.io/badge/Debian-11-blue) _(Codename: debian11)_
+  - ![Debian 12](https://img.shields.io/badge/Debian-12-blue)
+  - ![Debian 13](https://img.shields.io/badge/Debian-13-blue) _(Currently using Debian 13 Trixi!)_
+- ![Ubuntu](https://img.shields.io/badge/Ubuntu-Latest-orange)
+- ![Windows 11](https://img.shields.io/badge/Windows-11-lightblue)
 ### 📂 Project Terbaru
 - 🎯 [ITNSA  2024 & 2025](#)  
   gabut testing 
