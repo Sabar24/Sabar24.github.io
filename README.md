@@ -10,16 +10,15 @@
 ---
 
 ### 🚀 Skills
-![basicsPython](https://img.shields.io/badge/Python-3670A0?logo=python&logoColor=ffdd54)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?logo=javascript&logoColor=F7DF1E)
 ![Networking](https://img.shields.io/badge/Networking-0078D4?logo=cisco&logoColor=white)
 
 ---
 ### 💻 My Best Operating Systems
 
 - **Debian**
-  - ![Debian 11](https://img.shields.io/badge/Debian-11-blue) _(Codename: debian11)_
+  - ![Debian 11](https://img.shields.io/badge/Debian-11-blue) _(bullseye)_
   - ![Debian 12](https://img.shields.io/badge/Debian-12-blue)
+_(bookworm)_
   - ![Debian 13](https://img.shields.io/badge/Debian-13-blue) _(Currently using Debian 13 Trixi!)_
 - ![Ubuntu](https://img.shields.io/badge/Ubuntu-Latest-orange)
 - ![Windows 11](https://img.shields.io/badge/Windows-11-lightblue)
