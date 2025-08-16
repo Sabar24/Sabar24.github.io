@@ -10,7 +10,7 @@
 ---
 
 ### 🚀 Skills
-![Python](https://img.shields.io/badge/Python-3670A0?logo=python&logoColor=ffdd54)
+![basics Python](https://img.shields.io/badge/Python-3670A0?logo=python&logoColor=ffdd54)
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?logo=javascript&logoColor=F7DF1E)
 ![Networking](https://img.shields.io/badge/Networking-0078D4?logo=cisco&logoColor=white)
 
