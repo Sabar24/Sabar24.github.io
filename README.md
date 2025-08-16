@@ -39,7 +39,7 @@ _(bookworm)_
 - 📢 [Channel WhatsApp Five Gaming](https://whatsapp.com/channel/0029Vajwi2y6mYPFkhGWfV2f)  
   Update terbaru & pengumuman dari Five Gaming.
 gumuman dari Five Gaming.
-- 🛡 [spamssid_aimple](https://github.com/Sabar24/Spamssid_simple)  
+- 🛡 [spamssid_simple](https://github.com/Sabar24/Spamssid_simple)  
   cocok untul pemula belajar dan mengembangkan tools² seperti imi
 
 ---
