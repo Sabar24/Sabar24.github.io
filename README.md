@@ -1,6 +1,6 @@
 # Halo, saya Sabar24! 👋
-
-💻 Engineer | 📡 Network Enthusiast | 🤸 Calisthenics
+ I am a beginner dev and network system nice to meet you
+💻 programmer | 📡 Network Enthusiast | 🤸 Calisthenics
 
 ---
 
@@ -17,8 +17,8 @@
 ---
 
 ### 📂 Project Terbaru
-- 🎯 [ITNSA J2 2024 & 2025](#)  
-  Dokumentasi, tool, dan resource untuk ITNSA J2 periode 2024 & 2025.
+- 🎯 [ITNSA  2024 & 2025](#)  
+  gabut testing 
 - 🔐 [Projek Web Gabut](https://github.com/fivegaming24/fivegaming24.github.io)  
   Website eksperimen HTML/CSS untuk iseng dan uji fitur baru.
 - 📅 [Kalender Gabut](https://github.com/fivegaming24/Kalender)  
