@@ -1,7 +1,8 @@
 # Halo, saya Sabar24! 👋
+<img src="assets/IMG_20250822_102504_503.webp" alt="Screenshot" width="100" border="none" style="border-radius:50%;"/>
  I am a beginner dev and network system nice to meet you
 💻 programmer | 📡 Network Enthusiast | 🤸 Calisthenics
-<img src="assets/IMG_20250822_102504_503.webp" alt="Screenshot" width="100" border="none" style="border-radius:7px;"/>
+<img src="assets/IMG_20250822_102504_503.webp" alt="Screenshot" width="100" border="none" style="border-radius:50%;"/>
 ## always the second
 ---
 
@@ -13,7 +14,7 @@
 
 ![Networking](https://img.shields.io/badge/Networking-0078D4?logo=cisco&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white50%
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![Android Studio UI](https://img.shields.io/badge/Android%20Studio-3DDC84?logo=android&logoColor=white)
 ---
