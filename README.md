@@ -5,6 +5,9 @@
 💻 programmer | 📡 Network Enthusiast | 🤸 Calisthenics
 ## always the second
 ---
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Sabar24&layout=compact&theme=tokyonight)
+
+![Visitor Count](https://komarev.com/ghpvc/?username=Sabar24&color=blue&style=flat-square)
 
 ### 📊 GitHub Stats
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=Sabar24&show_icons=true&theme=tokyonight)
