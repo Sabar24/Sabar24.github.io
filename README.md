@@ -7,7 +7,7 @@
 
 ### 📊 GitHub Stats
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=Sabar24&show_icons=true&theme=tokyonight)
-
+<img src="assets/IMG_20250822_102504_503.webp" alt="Screenshot" width="400"/>
 ---
 ### 🚀 Skills
 
