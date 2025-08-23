@@ -1,5 +1,7 @@
-# Halo, saya Sabar24! 👋
-<img src="assets/IMG_20250822_102504_503.webp" alt="circle" width="100" style="border-radius:50%;" />
+<p align="center">
+  <img src="assets/IMG_20250822_102504_503.webp" alt="profile" width="120" style="clip-path: circle();" />
+</p>
+ # Halo, saya Sabar24! 👋
  I am a beginner dev and network system nice to meet you
 💻 programmer | 📡 Network Enthusiast | 🤸 Calisthenics
 ## always the second
