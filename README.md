@@ -32,7 +32,7 @@ _(bookworm)_
 - ![Ubuntu](https://img.shields.io/badge/Ubuntu-Latest-orange)
 - ![Windows 11](https://img.shields.io/badge/Windows-11-lightblue)
 ### 📂 Project Terbaru
-- 🎯 [have participated in competitions ITNSA  2024 & 2025 sulut](#)  
+- 🎯 [have participated in competitions ITNSA  2024 & 2025 sulut](https://pusatprestasinasional.kemdikbud.go.id/event/riset-dan-inovasi/smk/lomba-kompetensi-siswa-nasional-2025-2025-smk)  
   gabut testing 
 - 🔐 [Projek Web Gabut](https://github.com/fivegaming24/fivegaming24.github.io)  
   Website eksperimen HTML/CSS untuk iseng dan uji fitur baru.
